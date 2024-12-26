@@ -1,0 +1,509 @@
+/* Reset and general styles */
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* Header styling */
+.header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.header .nav-links a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header .nav-links a:hover {
+  color: #f4d03f;
+}
+
+/* Intro section styling */
+.intro {
+  text-align: center;
+  padding: 2rem 0;
+  background: #145df1da;
+  color: #fff;
+  
+}
+
+.intro h2 {
+  font-size: 2rem;
+}
+
+.intro p {
+  margin: 1rem 0;
+}
+
+.intro .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background: #f4d03f;
+  color: #333;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.intro .btn:hover {
+  background: #fff;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: #fff;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+footer .social-links a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+  color: #f4d03f;
+}
+ /* Courses section */
+.courses {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f4f4f4;
+}
+
+.courses h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.course-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.course {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 30%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.course img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.course h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.course p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.course .btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: bold;
+  position: center;
+  transition: background 0.3s ease;
+}
+
+.course .btn:hover {
+  background: #005bb5;
+}
+
+/* Certificate Section */
+.certificate-section {
+  text-align: center;
+  padding: 2rem 0;
+  background: #f4f4f4;
+}
+
+.certificate-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.certificate-section form {
+  margin-bottom: 2rem;
+}
+
+.certificate-section input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 1rem 0;
+  width: 80%;
+  max-width: 400px;
+}
+
+.certificate-preview {
+  margin-top: 2rem;
+  display: none;
+}
+
+.certificate {
+  width: 600px;
+  height: 400px;
+  background: #fff;
+  border: 2px solid #000;
+  padding: 1rem;
+  margin: auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.certificate h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.certificate p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.certificate .name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+/* Certificate Design */
+.certificate {
+  width: 800px;
+  height: 600px;
+  background: #f9f9f9;
+  border: 5px solid #333;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.certificate-header {
+  margin-bottom: 2rem;
+}
+
+.certificate-header .logo {
+  max-width: 100px;
+  margin-bottom: 1rem;
+}
+
+/* Main Content */
+.certificate h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.certificate .name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #0073e6;
+}
+
+.certificate p {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.certificate strong {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+/* Footer */
+.certificate-footer {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.certificate-footer p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+.certificate {
+  background-image: url("cert-watermarks
+      .png") ;
+  background-size: contain;
+}
+
+/* About Section */
+.about {
+  padding: 2rem 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.about p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.about h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #0073e6;
+}
+
+.about ul,
+.about ol {
+  text-align: left;
+  margin: 1rem auto;
+  max-width: 600px;
+  padding-left: 20px;
+}
+
+.about li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.about .testimonials {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.about .testimonial {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.about .testimonial span {
+  display: block;
+  margin-top: 1rem;
+  font-style: italic;
+  color: #0073e6;
+}
+
+/* Add animations to headings */
+.about h2, .about h3 {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.about h3 {
+  animation-delay: 0.3s;
+}
+
+/* Add animations to paragraphs */
+.about p {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+
+/* Add animations to lists */
+.about ul, .about ol {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+  animation-delay: 0.9s;
+}
+
+/* Add animations to testimonials */
+.about .testimonial {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* Hover effect for testimonials */
+.about .testimonial {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about .testimonial:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Section */
+.contact {
+  padding: 2rem 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.contact form label {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  border-color: #0073e6;
+}
+
+.contact .btn {
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact .btn:hover {
+  background: #005bb5;
+}
+
+/* Add animations */
+.contact form {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.contact h2, .contact p {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.contact h2 {
+  animation-delay: 0.3s;
+}
+
+.contact p {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.btn{
+    border: 5px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    height: 40px;
+    
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+  <section class="certificate-section">
+    <div class="container">
+      <h2>Generate Your Certificate</h2>
+      <form id="certificateForm">
+        <!-- Input for user name -->
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <button type="submit" class="btn">Generate Certificate</button>
+      </form>
+      <div id="certificatePreview" class="certificate-preview">
+        <!-- Placeholder for certificate -->
+      </div>
+    </div>
+  </section>
+
+<style>
+  .certificate{
+      background: url("cert-watermark.png")
+    
+     } 
+     h2{
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+        font: Arial, San-serif;
+    }
+     
+     
+  </style>
+
+  <script src="css-certificate.js"></script>
+</body>
+</html>
